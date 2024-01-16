@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Showcase</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="bg-background text-text font-sans md:h-screen">
+
+    <header class="text-white p-4">
+        <div class="container mx-auto flex items-center justify-between">
+            <h1 class="text-2xl font-bold">Website Showcase</h1>
+
+            <nav class="relative flex items-center space-x-20">
+                <div class="hidden space-x-8 font-bold lg:flex">
+                    <a href="#" class="text-text hover:text-accent">Websites</a>
+                    <a href="https://khalil-bchir.github.io/Mini-Projects-Tailwind-Css/"
+                        class="text-text hover:text-accent">Mini Projects</a>
+                </div>
+
+                <button id="sidebarToggle" class="block hamburger md:hidden focus:outline-none" type="button">
+                    <span class="hamburger-top"></span>
+                    <span class="hamburger-middle"></span>
+                    <span class="hamburger-bottom"></span>
+                </button>
+
+                <div id="menu" class="absolute hidden p-6 rounded-lg bg-darkViolet right-6 top-20 z-100">
+                    <div
+                        class="flex flex-col items-center justify-center w-full space-y-6 font-bold text-white rounded-sm">
+                        <a href="#" class="w-full text-center">Websites</a>
+                        <a href="https://khalil-bchir.github.io/Mini-Projects-Tailwind-Css/"
+                            class="w-full text-center">Mini Projects</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <div id="sidebar" class="z-10 fixed inset-y-0 left-0 w-screen bg-background text-text  p-4 transform -translate-x-full transition-transform ease-in-out duration-300 flex flex-col items-center justify-center">
+        <a href="https://khalil-bchir.github.io/Website-Showcase" class="text-text text-2xl hover:text-accent mb-4">Websites</a>
+        <a href="https://khalil-bchir.github.io/Mini-Projects-Tailwind-Css" class="text-text text-2xl text-bold hover:text-accent">Mini Projects</a>
+    </div>
+    
+
+    <!-- Add your website cards here -->
+    <section class="container mx-auto mt-8 grid grid-cols-1 md:grid-cols-3 gap-4 justify-center">
+        <!-- Website Card Examples -->
+        <div class="bg-primary p-4 rounded-md  hover:shadow-lg transition duration-200 transform hover:scale-105">
+            <img src="images/clipboard.png" alt="Website 1" class="w-full h-32 object-cover mb-4 rounded-md">
+            <h2 class="text-lg font-semibold mb-2">Clipboard</h2>
+            <p class="text-sm mb-4">A landing page for a Software</p>
+            <div>
+                <a href="https://khalil-bchir.github.io/Clipboard-websites-Tailwind-Css/" target="_blank"
+                    class="block bg-background text-center text-white px-4 py-2 rounded-md ">
+                    Visit Website
+                </a>
+            </div>
+        </div>
+
+        <div
+            class="bg-background p-4 rounded-md  ring-text hover:scale-105 duration-200 border border-solid border-text">
+            <img src="images/loopstudios.png" alt="Website 1" class="w-full h-32 object-cover mb-4 rounded-md">
+            <h2 class="text-lg font-semibold mb-2">Loopstudios</h2>
+            <p class="text-sm  mb-4">A website for a studio</p>
+            <div>
+                <a href="https://khalil-bchir.github.io/Loopstudios-website-Tailwind-Css/" target="_blank"
+                    class="block bg-text text-center text-background px-4 py-2 rounded-md ">
+                    Visit Website
+                </a>
+            </div>
+        </div>
+
+        <div class="bg-accent p-4 rounded-md  hover:scale-105 duration-200">
+            <img src="images/shortly.png" alt="Website 1" class="w-full h-32 object-cover mb-4 rounded-md">
+            <h2 class="text-lg font-semibold mb-2">Shortly</h2>
+            <p class="text-sm  mb-4">A website for shortening links</p>
+            <div>
+                <a href="https://khalil-bchir.github.io/Shortly-website-tailwind-css/" target="_blank"
+                    class="block bg-background text-center text-white px-4 py-2 rounded-md ">
+                    Visit Website
+                </a>
+            </div>
+        </div>
+
+        <div class="bg-accent p-4 rounded-md  hover:scale-105 duration-200">
+            <img src="images/fylo.png" alt="Website 1" class="w-full h-32 object-cover mb-4 rounded-md">
+            <h2 class="text-lg font-semibold mb-2">Fylo</h2>
+            <p class="text-sm  mb-4">A website for a cloud storage platform</p>
+            <div>
+                <a href="https://khalil-bchir.github.io/Fylo-website-tailwind-css/" target="_blank"
+                    class="block bg-background text-center text-white px-4 py-2 rounded-md ">
+                    Visit Website
+                </a>
+            </div>
+        </div>
+
+        <div
+            class="bg-background p-4 rounded-md  ring-text hover:scale-105 duration-200 border border-solid border-text">
+            <img src="images//testimonial-grid.png" alt="Website 1" class="w-full h-32 object-cover mb-4 rounded-md">
+            <h2 class="text-lg font-semibold mb-2">Testimonial Grids</h2>
+            <p class="text-sm  mb-4">A user interface to display testimonials</p>
+            <div>
+                <a href="https://khalil-bchir.github.io/Testimonial-Grid-website-tailwind-css/" target="_blank"
+                    class="block bg-text text-center text-background px-4 py-2 rounded-md ">
+                    Visit Website
+                </a>
+            </div>
+        </div>
+
+        <div class="bg-primary p-4 rounded-md  hover:scale-105 duration-200">
+            <img src="images/bookmark.png" alt="Website 1" class="w-full h-32 object-cover mb-4 rounded-md">
+            <h2 class="text-lg font-semibold mb-2">Bookmark</h2>
+            <p class="text-sm  mb-4">A Simple Bookmark Manager</p>
+            <div>
+                <a href="https://khalil-bchir.github.io/Bookmark-website-tailwind-css/" target="_blank"
+                    class="block bg-background text-center text-white px-4 py-2 rounded-md ">
+                    Visit Website
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+
+    <footer class="bottom-0 inset-x-0 text-white mt-10 py-8">
+        <div class="container mx-auto text-right">
+            <a href="https://github.com/Khalil-Bchir" target="_blank" rel="noopener noreferrer">
+                <i class="fab fa-github text-3xl text-text duration-200 hover:text-accent"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/script.js" defer></script>
+
+</body>
+
+</html>
