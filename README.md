@@ -19,7 +19,3 @@ cd Website-Showcase
 ## Contributing
 
 Contributions are welcome! Feel free to suggest improvements or add new projects.
-
-## License
-
-MIT License
